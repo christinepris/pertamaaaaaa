@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".RegisterActivity">
+
+
+
+    <TextView
+        android:id="@+id/textview_catering"
+        android:layout_width="301dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/just_find_your_cathering"
+        android:textAlignment="center"
+        android:textColor="#80346c"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/edittext_username"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="160dp"
+        android:background="#ffffff"
+        android:hint="@string/Username"
+        android:inputType="textPersonName"
+        android:paddingLeft="2dp" />
+
+    <EditText
+        android:id="@+id/edittext_password"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:hint="@string/password"/>
+
+    <EditText
+        android:id="@+id/edittext_cnf_password"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:hint="@string/confirm_password"/>
+
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:id="@+id/button_register"
+        android:layout_marginTop="20dp"
+        android:background="#f08080"
+        android:text="@string/register"/>
+
+</LinearLayout>

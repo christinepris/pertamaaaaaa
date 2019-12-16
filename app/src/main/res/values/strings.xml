@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">pertama</string>
+    <string name="Username">Username</string>
+    <string name="password">password</string>
+    <string name="login">Login</string>
+    <string name="not_registered">Not Registered</string>
+    <string name="Register">Register</string>
+    <string name="just_find_your_cathering">Just Find Your Cathering</string>
+    <string name="register">REGISTER</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="my_profile">My Profile</string>
+    <string name="menu">Menu</string>
+    <string name="profile">Profile</string>
+    <string name="favorite">Favorite</string>
+    <string name="jadwal">Jadwal</string>
+    <string name="home">Home</string>
+</resources>
